@@ -1,0 +1,113 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login to facebook application",
+    "line": 1,
+    "id": "login-to-facebook-application",
+    "tags": [],
+    "uri": "features/login.feature",
+    "elements": [
+      {
+        "id": "login-to-facebook-application;to-verify-login-onto-facebook-application-with-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "To verify Login onto facebook application with invalid credentials",
+        "tags": [
+          {
+            "name": "@tag1",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1418000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Home page of facebook",
+            "match": {
+              "location": "features/step_defintions/step_definitions.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I enter Invalid email in user id field",
+            "match": {
+              "location": "features/step_defintions/step_definitions.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I enter Invalid password in password field",
+            "match": {
+              "location": "features/step_defintions/step_definitions.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I click on Submit button",
+            "match": {
+              "location": "features/step_defintions/step_definitions.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I verify error message",
+            "match": {
+              "location": "features/step_defintions/step_definitions.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:8"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
